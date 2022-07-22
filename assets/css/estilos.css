@@ -1,0 +1,113 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+background-color: black;
+height: 73px;
+text-align: center;
+overflow: hidden;
+}
+
+header h1{
+    color:white;
+    font-size: 50px;
+    font-weight: 500;
+    margin: 11.5px;
+}
+
+#slider {
+    height: 727px;
+    background-image: url(../img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#descrip-iguana {
+    padding: 5rem 20rem 5rem 20rem;
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+}
+
+#descrip-iguana img{
+    width: 40%;
+    float: right;
+}
+
+#descrip-iguana p{
+    float:left;
+    color: white;
+    width: 40%;
+    padding-top: 2rem;
+    text-align: justify;
+}
+
+#caract-3 {
+    height: 348px;
+    background-color: #1E1A13;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+#caract-3 article {
+    margin: 75px auto 24px auto;
+    text-align: center;
+    width: 75%
+}
+
+#caract-3 article h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom:50px;
+}
+
+
+.carac {
+    float:left;
+    width: 33%;
+}
+
+.carac p{
+    font: size 25px;
+    font-weight: 300;
+    margin-top: 16px;
+}
+
+#tres-imagenes{
+    max-height: 400px;
+    overflow: hidden;
+    background-color: black;
+    padding: 100px 0 100px 0;
+
+}
+
+#tres-imagenes article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#tres-imagenes img{
+    width: 25%;
+    float: left;
+    height: 20rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#footer-huincha {
+    Background-color: #1E1A13;
+    height: 50px;
+    color: white;
+}
+
+#footer-huincha h2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 10px 0;
+    color: white;
+}
